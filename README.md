@@ -1,36 +1,25 @@
  
-# Authentication Boilerplate for NodeJS 
-### Special Thanks @ WebDevSimplified [35 minute tutorial](https://youtu.be/-RCnNyD0L-s) 
-and its corresponding Nodejs-Passport-Login repository 
-
+# Authentication Boilerplate for NodeJS WebApp
+#### Special Thanks @ WebDevSimplified [35 minute tutorial](https://youtu.be/-RCnNyD0L-s) forked from their repository, linked [here](https://github.com/WebDevSimplified/Nodejs-Passport-Login)
 
 ## Before you get started:
-1.  `.gitignore ` ignores `.env` so you may need to create one during installation and setup.  Tutorial video has further info.
+*  `.gitignore ` ignores `.env` so you may need to create one during installation and setup.  Tutorial video has further info.
+*  The tutorial employs code shortcuts and project architecture that the original authors themselves strongly discourage from use in a production environment.  Tutorial video has further info.  [More info, sourced from the npm docs ](https://docs.npmjs.com/cli/v8/commands/npm-install) informs the below Setup & Installation instructions.
 
-1.  The tutorial employs code shortcuts and project architecture that the original authors themselves strongly discourage from use in a production environment.  Tutorial video has further info.  [More info, sourced from the npm docs ](https://docs.npmjs.com/cli/v8/commands/npm-install) informs the below Setup & Installation instructions.
-
-## Getting started, in 7 steps: 
+## Getting started: 
 
 ### Setup 
-
 1.  `cd ~/workspace`
-1. Fork 
-2. Clone 
-3. Change Directories into your cloned Repository 
+2. Fork 
+3. Clone 
+4. Change Directories into your cloned Repository 
 
 ### Installation 
-4. ```npm install --production=false``` :  With the ```--production``` flag (or when the NODE_ENV environment variable is set to production), npm will not install modules listed in devDependencies. To install all modules listed in both dependencies and devDependencies when NODE_ENV environment variable is set to production, you can use --production=false.
+5. ```npm install --production=false``` :  With the ```--production``` flag (or when the NODE_ENV environment variable is set to production), npm will not install modules listed in devDependencies. To install all modules listed in both dependencies and devDependencies when NODE_ENV environment variable is set to production, you can use --production=false.
 
 ### Start 
-5. Invoke  ```npm run devStart``` :  as described in `package.json` 
-
-6. spin Up ```localhost:3000 ``` which *should* auto re-direct to ```localhost:3000/login ```
-nodemon monitors `server.js` for changes & restarts the app accordingly
-
-
-
-
+6. ```npm run devStart``` 
+7. go to ```localhost:3000 ```  which you *should* see auto re-direct to ```localhost:3000/login ``` as you are not yet a registered user. 
 
 ### Next steps: 
-
 Connect this repo to onrender.com service, then configure my dashboard's advanced settings, enabling any authenticated user's submitted data to persist! 
