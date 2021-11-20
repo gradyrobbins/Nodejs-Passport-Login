@@ -3,11 +3,11 @@
 #### Special Thanks @ WebDevSimplified [35 minute tutorial](https://youtu.be/-RCnNyD0L-s) forked from their repository, linked [here](https://github.com/WebDevSimplified/Nodejs-Passport-Login)
 
 ## Before you get started:
-*  `.gitignore ` ignores `.env` so you may need to create one during installation and setup.  Tutorial video has further info.
-*  The tutorial employs code shortcuts and project architecture that the original authors themselves strongly discourage from use in a production environment.  Tutorial video has further info.  [More info, sourced from the npm docs ](https://docs.npmjs.com/cli/v8/commands/npm-install) informs the below Setup & Installation instructions.
+*  `.gitignore ` ignores `.env` so you may need to create one during installation and setup.  
+*  The tutorial employs code shortcuts and project architecture that the original authors themselves strongly discourage from use in a production environment.    [More info, sourced from the npm docs ](https://docs.npmjs.com/cli/v8/commands/npm-install) informs the below Setup & Installation instructions.
+* Both of these bulletpoints are addressed, during the video 
 
 ## Getting started: 
-
 ### Setup 
 1.  `cd ~/workspace`
 2. Fork 
