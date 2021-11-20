@@ -1,5 +1,8 @@
-# Nodejs-Passport-Login 
-# A boilerplate app, full credit to [this 35 minute YouTube tutorial](https://youtu.be/-RCnNyD0L-s)
+ 
+# Authentication Boilerplate for NodeJS 
+### Special Thanks @ WebDevSimplified [35 minute tutorial](https://youtu.be/-RCnNyD0L-s) 
+and its corresponding Nodejs-Passport-Login repository 
+
 
 ## Before you get started:
 1.  `.gitignore ` ignores `.env` so you may need to create one during installation and setup.  Tutorial video has further info.
@@ -30,4 +33,4 @@ nodemon monitors `server.js` for changes & restarts the app accordingly
 
 ### Next steps: 
 
-I aim implement this auth onto state-quarter-collector.onrender.com.  Then connect the web app to a render disk so that the user's quarter data will persist.  
+Connect this repo to onrender.com service, then configure my dashboard's advanced settings, enabling any authenticated user's submitted data to persist! 
