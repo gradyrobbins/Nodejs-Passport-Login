@@ -2,6 +2,7 @@ if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
+const path = require('path')
 const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
@@ -30,6 +31,12 @@ app.use(session({
 app.use(passport.initialize())
 app.use(passport.session())
 app.use(methodOverride('_method'))
+
+
+// Static folder
+app.use(express.static(path.join(__dirname, 'public')))
+
+
 
 app.get('/', checkAuthenticated, (req, res) => {
   res.render('index.ejs', { name: req.user.name })

@@ -1,6 +1,13 @@
 
 ## Additional Notes, with correlating video timestamps:
 
+
+Why use this app and not Auth0?
+```
+Attempted import error: 'Switch' is not exported from 'react-router-dom'
+```
+
+
 ### *Tutorial timestamp@ 14:00*
 This node app does NOT hit an *external* database.
 Our *"database"* ... is initialized as an empty array, inside `server.js`>> `const users = []`.
